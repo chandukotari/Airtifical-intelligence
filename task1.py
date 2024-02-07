@@ -7,7 +7,7 @@ data = np.loadtxt('ex1data1.txt', delimiter=',')
 # Step 2: Visualize the Data
 population = data[:, 0]
 profit = data[:, 1]
-plt.scatter(population, profit, marker='x', color='red')
+plt.scatter(population, profit, marker='.', color='blue')
 plt.xlabel('Population of City (in 10,000s)')
 plt.ylabel('Profit (in $10,000s)')
 plt.title('Food Truck Profits vs. City Population')
